@@ -15,7 +15,7 @@ function fetchUser() {
     // Promise는 꼭 resolve, reject 중 하나를 이용하여 완료해야함!
     // 만약, { return "zuitopia"; }으로 완료할 시 Promise{<pending>} 상태가 지속됨
 
-    // PromiseState : pending | fulfulled | rejected
+    // PromiseState : pending | fulfilled | rejected
   });
 }
 
