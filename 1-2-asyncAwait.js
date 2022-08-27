@@ -43,7 +43,7 @@ async function pickFruits() {
   const bananaPromise = getBanana();
   const apple = await applePromise;
   const banana = await bananaPromise;
-  return `${apple} + ${banana}`;
+  return `${apple + String(1 + 3)} + ${banana}`;
   // return apple + banana; // 5초 뒤, 사과바나나 출력
 }
 pickFruits().then(console.log); // 5초 뒤, '사과 + 바나나' 출력
